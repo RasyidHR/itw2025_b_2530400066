@@ -1,24 +1,26 @@
 body {
-  background-color: aqua;
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(img.png);
+  background-repeat: repeat-x;
 }
 
 h1 {
   font-family: "Comic Sans MS";
   font-size: 60px;
   color: darkblue;
+  text-align: center;
 }
 
 h3 a {
-  color: white;
+  color: red;
 }
 
-h3 + p {
-  color: orange;
+h3 {
+  text-align: center;
 }
 
 h4 {
-  text-align: end;
+  text-align: center;
   font-style: italic;
 }
 
@@ -29,4 +31,8 @@ p {
 
 #paragraf2 {
   line-height: 25px;
+}
+
+#paragraf1 {
+  color: orange;
 }
